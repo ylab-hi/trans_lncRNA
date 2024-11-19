@@ -1,4 +1,4 @@
-# Code for *The lncRNA landscape of advanced prostate cancer identified a role for IGF1R-AS1 in prostate cancer progression*
+# Code for *Trans-acting long non-coding RNA modulates long-range chromatin interactions associated with oncogenic MYC signaling*
 Public repository containing research code for the IGF1R-AS1 lncRNA project accompanying
 the manuscript *The lncRNA landscape of advanced prostate cancer identified a role for IGF1R-AS1 in prostate cancer progression*
 
