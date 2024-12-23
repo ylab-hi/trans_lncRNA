@@ -14,4 +14,4 @@ Contains code for coding potential prediction.
 
 # 📚 Citation
 
-Yang Y, Wang TY., Fry J., Li Y, et al.[Trans-acting long non-coding RNA modulates long-range chromatin interactions associated with oncogenic MYC signaling]( "Trans-acting long non-coding RNA modulates long-range chromatin interactions associated with oncogenic MYC signaling").
+Yang Y, Wang TY., Fry J., Li Y, et al. [Trans-acting long non-coding RNA modulates long-range chromatin interactions associated with oncogenic MYC signaling](https://doi.org "Trans-acting long non-coding RNA modulates long-range chromatin interactions associated with oncogenic MYC signaling").
