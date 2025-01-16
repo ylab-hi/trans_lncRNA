@@ -4,7 +4,7 @@ In this manuscript, we used `bedtools`, `CPAT`, `txCdsPredict`, `CPC2`, `CNCI2`,
 
 Bedtools, CPAT and CPC2 can be installed via conda.
 
-bash```
+```
 conda install bioconda::bedtools
 conda install bioconda::cpat
 conda install bioconda::cpc2
@@ -19,7 +19,7 @@ txCdsPredict is available at [UCSC](https://hgdownload.soe.ucsc.edu/admin/exe/li
 
 In order to run `coding_potential.py`, you have to install the dependencies, including Biopython, HTSeq, and pyfaidx.
 
-bash```
+```
 conda install conda-forge::biopython
 conda install bioconda::htseq
 conda install bioconda::pyfaidx
@@ -27,6 +27,6 @@ conda install bioconda::pyfaidx
 
 ### Running the program
 
-bash```
+```
 coding_potential.py -g novel_lncRNAs.gtf -o novel_lncRNAs.table.txt
 ```
