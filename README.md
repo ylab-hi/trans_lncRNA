@@ -11,6 +11,9 @@ Contains code for candidate novel lncRNA identification.
 * **`coding_potential`**
 Contains code for coding potential prediction.
 
+* **`DEG_for_PRAD_N_T_SU2C`**
+Contains code for Differentially expressed gene identification.
+
 * **`igf1r_as1_network`**
 Contains code for promoter-enhancer interaction network construction.
 
