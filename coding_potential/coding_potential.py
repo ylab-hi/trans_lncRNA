@@ -124,7 +124,6 @@ def genLncRNASeq(gtf, ref_fa="hg38.fa"):
                 out.write(line)
     out.close()
 
-    #ret = subprocess.check_call('grep -P "\texon\t" {} > {}.exons.gtf'.format(gtf, uid), shell=True)
     lncRNA_fa = '{}.tmp.lncRNA.fa'.format(uid)
     cmd = 'bedtools getfasta -s -fi {0} -bed {1}.exons.gtf -fo {2}'.format(ref_fa, uid, lncRNA_fa)
     ret = run_cmd(cmd, 'Generating FASTA!')
@@ -342,11 +341,8 @@ def removeIDs(ids, in_gtf, out_gtf):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Coding potential prediction")
-    #parser.add_argument('-i', '--input', action='store', dest='input', help="RNA assembly GTF file", required=True)
     parser.add_argument('-f', '--fasta', action='store', dest='fasta', help="RNA sequence seq (FASTA)")
     parser.add_argument('-g', '--gtf', action='store', dest='gtf', help="RNA sequence seq (GTF)")
-    #parser.add_argument('-m', '--method', action='store', dest='method', help="hg19 or hg38 (default: %(default)s)", choices=['hg19','hg38'], default='hg38')
-    #parser.add_argument('-o', '--output', action='store', dest='output', help="fitered GTF file for coding potential test")
     parser.add_argument('-o', '--output', action='store', dest='output', help="output table name for coding potential test")
     parser.add_argument('-r', '--ref', action='store', dest='ref', help="hg19 or hg38 (default: %(default)s)", choices=['hg19','hg38'], default='hg38')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s 1.0')
